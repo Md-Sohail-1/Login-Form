@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+*{
+  margin:0px;
+  padding: 0px;
+  font-family: Lexend,"Sans-Serif";
+}
+body{
+  display: ;
+  height:100vh;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  perspective: 200;
+}
+#title{
+  text-align: center;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size:36px;
+  color:#08415c;
+  letter-spacing:5px;
+  font-family: "Metal Mania",system-ui;
+  position: reltaive;
+  margin-top:70px;
+  height: 40px;
+  width:100%;
+}
+.container{
+  position: relative;
+  width:100wh;
+  height:320px;
+  margin:0px auto;
+  background:#406998a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  flex-direction: column;
+}
+.name{
+  margin-top: 5px;
+}
+#form1,#form2,#forget_form{
+  margin-top:40px;
+  background: ;
+}
+input{
+  box-shadow:0px 0px 1px 0.1px rgba(0,0,5,1);
+}
+.input{
+  outline-color: indigo;
+  outline-width: 0px;
+  margin:7px 25px;
+  height:30px;
+  width:250px;
+  background: whitesmoke;
+  border: none;
+  padding: 2px 2px 2px 10px;
+  border-radius: 5px;
+}
+.tag{
+  color: #08415c;
+  padding-right:7px;
+}
+.Signup_Btn{
+  margin:5px 25px;
+}
+.Login-btn{
+  margin:11px 25px 5px 25px;
+}
+.signup{
+  text-align: center;
+  margin:20px 0px;
+  color:#393219;
+  font-size:19px;
+  font-weight: 700;
+}
+.btn{
+  background: blue;
+  margin-top:25px;
+  height:30px;
+  color:white;
+  transition: 1s ease;
+  text-align: center;
+  justify-content: center;
+  padding:0px;
+}
+.For_login_signup{
+  text-align: center;
+  margin:12px 0px 0px 0px;
+  color:#08415c;
+  text-decoration: underline;
+  font-size:10px;
+}
+.For_login_signup:hover{
+  color:indigo;
+}
+#btn-reset{
+  margin-top: 5px;
+  background: whitesmoke;
+  color:black;
+  display: none;
+}
+.res-btn3{
+  position: relative;
+  text-align: center;
+}
+#forgetPassword{
+  background: none;
+  font-size:10px;
+  text-align: right;
+  margin-bottom:1px;
+}
+#btn-reset:hover{
+  background:white;
+  color:darkgrey;
+}
+#btn-submit:hover{
+  background: lightblue;
+  color:blue;
+}
+#check{
+  position:relative;
+  display: none;
+}
+#form1{
+  display: block;
+}
+#check:checked ~ #form1{
+  display: none;
+  z-index: ;
+}
+#check:checked ~ #form2{
+  display: block;
+  z-index:;
+}
+.forgetName{
+  display:block;
+}
+#name2{
+  display: none;
+}
+#form2{
+  display: none;
+}
+.password3{
+  display: none;
+}
+#forget_form{
+  display: none;
+}
+#check2:checked ~ #forget_form{
+  display: block;
+}
+#check2:checked ~ #loginUser{
+  display: none;
+}
+#check2{
+  display: none;
+}
+#check2:checked ~ #form2{
+  display: none;
+}
+.ForLoginError{
+  color: Red;
+  font-size:10px;
+  text-align: center;
+  font-weight: 500;
+}
+
