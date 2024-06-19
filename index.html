@@ -1,0 +1,54 @@
+<!doctype>
+<html>
+  <head>
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body ondragstart="return false;" onselectstart="return false;">
+    <h1 id="title">Use Brain</h1>
+    <input type="checkbox" id="check">
+    <input type="checkbox" id="check2">
+   <form id="form1">
+     <div id="container" class="container form1Container">
+       <p id="Signup_head" class="signup">Sign-Up</p>
+       <input autofocus="" id="SignUp_name" class="input name" type="text" required="" placeholder="Create User Name..." pattern="[a-z0-9]+">
+       <input id="SignUp_id" class="input" type="email" required="" placeholder="Email ID..." >
+       <input id="SignUp_password" class="input" required="" type="password" placeholder="Password..."><i></i>
+       <button id="btn-submit" class="input btn Signup_Btn" type="Submit" >Sign-Up</button>
+       <button id="btn-reset" class="btn input" type="Reset" >Reset</button>
+       <label for="check" id="loginUser" class="For_login_signup tag">Already Have An Account?</label>
+     </div>
+   </form>
+   
+   <form id="form2">
+     <div id="container" class="container form2Container">
+       <p id="Login-head" class="signup">Log-In</p>
+       <input id="name2" class="input name2" type="text" required="" placeholder="Enter Your Name...">
+       <input autofocus="" id="id" class="input id2" type="text" required="" placeholder="Email ID or User Name...">
+       <p class="ForLoginError" id="IdP1"></p>
+       <input id="password" class="input password2" required="" type="password" placeholder="Password...">
+       <p class="ForLoginError" id="IdP2"></p>
+       <label for="check2" id="forgetPassword" class="input tag">Forget Password?</label>
+       <button id="btn-submit" class="input btn Login-btn" type="Submit" >Log-In</button>
+       <button id="btn-reset" class="btn input res-btn2" type="Reset" >Reset</button>
+       <label for="check" id="loginUser" class="For_login_signup tag">Don't Have An Account? Sign-Up</label>
+     </div>
+   </form>
+   
+   <form id="forget_form">
+     <div id="container" class="container form3Container">
+       <p id="Forget_head" class="signup">Forget Password</p>
+       <input id="name3" class="input name3 forgetName" type="text" required="" placeholder="Enter Your UserName..." pattern="[a-z0-9]+">
+       <input autofocus="" id="id" class="input id3" type="email" required="" placeholder="Email Id..." >
+       <input id="password" class="input password3" required="" type="password" placeholder="Password...">
+       <p id="forgetPassword" class="input form3Forget"><a class="tag">Privecy Polices</a></p>
+       <button id="btn-submit" class="input btn Set_pass_btn" type="Submit" >Set Password</button>
+       <button id="btn-reset" class="btn input res-btn3" type="Reset" >Reset</button>
+       <label for="check2" id="loginUser" class="For_login_signup tag" >Log-In</label>
+     </div>
+   </form>
+   
+   <script src="script.js" type="text/javascript"></script> 
+  </body>
+</html>
